@@ -6,13 +6,18 @@ function App() {
   return (
     <div className="max-w-md mx-auto min-h-screen text-stone-900 pb-24 font-sans relative bg-[url('/fondo-carton.avif')] bg-repeat shadow-2xl overflow-hidden">
 
-      <img src="/cafe.png" alt="" className="absolute top-0 left-0 w-32 opacity-20 pointer-events-none z-0" />
-      <img src="/cafe.png" alt="" className="absolute bottom-20 right-0 w-40 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      {/* Imágenes decorativas distribuidas por el contenedor para que aparezcan al hacer scroll */}
+      <img src="/cafe.png" alt="" className="absolute top-[10%] left-0 w-32 opacity-20 pointer-events-none z-0" />
+      <img src="/cafe.png" alt="" className="absolute top-[20%] right-0 w-40 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[40%] left-0 w-36 opacity-20 pointer-events-none z-0" />
+      <img src="/cafe.png" alt="" className="absolute top-[60%] right-0 w-32 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[80%] left-0 w-40 opacity-20 pointer-events-none z-0" />
+      <img src="/cafe.png" alt="" className="absolute bottom-20 right-0 w-36 opacity-20 pointer-events-none z-0 transform rotate-180" />
 
       {/* Cabecera Estilo Fonda con bordes rústicos */}
-      <header className="relative bg-stone-900/95 text-white text-center py-8 px-4 rounded-b-3xl shadow-xl mb-6 border-b-4 border-red-700 z-10">
+      <header className="relative bg-stone-900/95 text-white text-center py-8 px-4 rounded-b-3xl shadow-xl mb-6 border-b-4 border-white z-10">
         <h1 className="text-4xl font-black uppercase tracking-widest text-white mb-1 drop-shadow-md">
-          Fonda <span className="text-red-500">Paisa</span>
+          Fonda <span className="text-white">Paisa</span>
         </h1>
         <p className="text-xs text-stone-300 uppercase tracking-[0.2em] font-bold border-t border-stone-700 pt-2 inline-block">
           Restaurante - Parrilla

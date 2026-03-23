@@ -31,11 +31,11 @@ export const menuData = [
   ]
   },
   {
-    categoria: "Nuestros Típicos",
-    items: [
-      { nombre: "Bandeja Paisa", descripcion: "Carne de res, arroz, frijoles, chorizo, chicharrón, huevo, tajada, maduro, aguacate, mazamorra y arepa.", precio: 32800 },
-      { nombre: "Cazuela de Frijol", descripcion: "Frijol, arroz, trozos de chicharrón, chorizo, aguacate, maduro, y arepa.", precio: 24900 },
-      { nombre: "Bisteck a Caballo", descripcion: "Solomito de res 300grs., huevo, arroz, ensalada, salsa criolla, arepa y patacón.", precio: 34900 }
+    "categoria": "Nuestros Típicos",
+    "items": [
+      { "nombre": "Bandeja Paisa", "descripcion": "Carne de res, arroz, frijoles, chorizo, chicharrón, huevo, tajada, maduro, aguacate, mazamorra y arepa.", "precio": 32800 },
+      { "nombre": "Cazuela de Frijol", "descripcion": "Frijol, arroz, trozos de chicharrón, chorizo, aguacate, maduro, y arepa.", "precio": 24900 },
+      { "nombre": "Bisteck a Caballo", "descripcion": "Solomito de res 300grs., huevo, arroz, ensalada, salsa criolla, arepa y patacón.", "precio": 34900 }
     ]
   },
   {

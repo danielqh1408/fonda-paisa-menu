@@ -3,7 +3,7 @@ import { Plato } from './Plato';
 
 export function Categoria({ titulo, items }) {
   return (
-    <section className="mb-8 bg-white/90 backdrop-blur-sm p-5 rounded-lg shadow-md border-t-4 border-red-600 relative overflow-hidden">
+    <section className="mb-8 bg-transparent p-5 rounded-lg shadow-md border-t-4 border-white relative overflow-hidden">
       <div className="absolute top-0 right-0 w-16 h-16 bg-stone-100 rounded-bl-full -z-10 opacity-50"></div>
       
       <h2 className="text-xl font-black text-stone-800 border-b border-stone-200 pb-2 mb-4 uppercase tracking-wider font-serif">
