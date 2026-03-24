@@ -7,12 +7,25 @@ function App() {
     <div className="max-w-md mx-auto min-h-screen text-stone-900 pb-24 font-sans relative bg-[url('/fondo-carton.avif')] bg-repeat shadow-2xl overflow-hidden">
 
       {/* Imágenes decorativas distribuidas por el contenedor para que aparezcan al hacer scroll */}
+      <img src="/cafe.png" alt="" className="absolute top-[5%] right-0 w-40 opacity-20 pointer-events-none z-0 transform rotate-180" />
       <img src="/cafe.png" alt="" className="absolute top-[10%] left-0 w-32 opacity-20 pointer-events-none z-0" />
-      <img src="/cafe.png" alt="" className="absolute top-[20%] right-0 w-40 opacity-20 pointer-events-none z-0 transform rotate-180" />
-      <img src="/cafe.png" alt="" className="absolute top-[40%] left-0 w-36 opacity-20 pointer-events-none z-0" />
-      <img src="/cafe.png" alt="" className="absolute top-[60%] right-0 w-32 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[15%] right-0 w-40 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[20%] left-0 w-36 opacity-20 pointer-events-none z-0" />
+      <img src="/cafe.png" alt="" className="absolute top-[25%] right-0 w-32 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[30%] left-0 w-40 opacity-20 pointer-events-none z-0" />
+      <img src="/cafe.png" alt="" className="absolute top-[35%] right-0 w-36 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[40%] left-0 w-40 opacity-20 pointer-events-none z-0" />
+      <img src="/cafe.png" alt="" className="absolute top-[45%] right-0 w-36 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[50%] left-0 w-40 opacity-20 pointer-events-none z-0" />
+      <img src="/cafe.png" alt="" className="absolute top-[55%] right-0 w-36 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[60%] left-0 w-40 opacity-20 pointer-events-none z-0" />
+      <img src="/cafe.png" alt="" className="absolute top-[65%] right-0 w-36 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[70%] left-0 w-40 opacity-20 pointer-events-none z-0" />
+      <img src="/cafe.png" alt="" className="absolute top-[75%] right-0 w-36 opacity-20 pointer-events-none z-0 transform rotate-180" />
       <img src="/cafe.png" alt="" className="absolute top-[80%] left-0 w-40 opacity-20 pointer-events-none z-0" />
-      <img src="/cafe.png" alt="" className="absolute bottom-20 right-0 w-36 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[85%] right-0 w-36 opacity-20 pointer-events-none z-0 transform rotate-180" />
+      <img src="/cafe.png" alt="" className="absolute top-[90%] left-0 w-40 opacity-20 pointer-events-none z-0" />
+      <img src="/cafe.png" alt="" className="absolute top-[95%] right-0 w-36 opacity-20 pointer-events-none z-0 transform rotate-180" />
 
       {/* Cabecera Estilo Fonda con bordes rústicos */}
       <header className="relative bg-stone-900/95 text-white text-center py-8 px-4 rounded-b-3xl shadow-xl mb-6 border-b-4 border-white z-10">
@@ -29,9 +42,29 @@ function App() {
       
       <main className="px-4 relative z-10">
         {menuData.map((categoria, index) => (
-          <Categoria key={index} titulo={categoria.categoria} items={categoria.items} />
+          <Categoria 
+            key={index} 
+            titulo={categoria.categoria} 
+            descripcion={categoria.descripcion}
+            items={categoria.items} 
+          />
         ))}
       </main>
+
+      <section className="mb-8 bg-transparent p-5 rounded-lg shadow-md border-t-4 border-white relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-16 h-16 bg-stone-100 rounded-bl-full -z-10 opacity-50"></div>
+            <h2 className="text-xl text-center font-black text-stone-800 border-b border-stone-200 pb-2 mb-4 uppercase tracking-wider font-serif">
+              DIRECCION
+            </h2>            
+            <div className="flex flex-col space-y-2">
+              <p className="text-md text-center font-bold text-stone-800">
+                Cra 5 #10-65, Galeria
+              </p>
+              <p className="text-md text-center font-bold text-stone-800">
+                Anserma, Caldas
+              </p>
+            </div>
+      </section>
 
       {/* Botón Flotante de WhatsApp */}
       <a 
