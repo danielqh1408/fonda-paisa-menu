@@ -5,12 +5,12 @@ export const menuData = [
   "items": [
     { 
       "nombre": "CALENTAO PAISA", 
-      "descripcion": "Calentao de frijoles, carne de cerdo y huevo.\nArepa con queso, tajada de maduro y chocolate.", 
+      "descripcion": "Calentao de frijoles, carne de cerdo y huevo. Arepa con queso, tajada de maduro y chocolate.", 
       "precio": 15900 
     },
     { 
       "nombre": "BISTECK A CABALLO", 
-      "descripcion": "Carne de cerdo o res (150 grs) en salsa criolla,\nhuevo frito, tajada, arepa y chocolate.", 
+      "descripcion": "Carne de cerdo o res (150 grs) en salsa criolla, huevo frito, tajada, arepa y chocolate.", 
       "precio": 15900 
     },
     { 
@@ -20,7 +20,7 @@ export const menuData = [
     },
     { 
       "nombre": "TRADICIONAL", 
-      "descripcion": "Huevos al gusto, carne, arepa, arroz,\nqueso y chocolate.", 
+      "descripcion": "Huevos al gusto, carne, arepa, arroz, queso y chocolate.", 
       "precio": 15900 
     },
     { 
@@ -36,11 +36,11 @@ export const menuData = [
     "items": [
       { 
         "nombre": "BANDEJA PAISA", 
-        "descripcion": "Carne de res, arroz, frijoles, chorizo, chicharrón,\nhuevo, tajada, maduro, aguacate, mazamorra y arepa.", 
+        "descripcion": "Carne de res, arroz, frijoles, chorizo, chicharrón, huevo, tajada, maduro, aguacate, mazamorra y arepa.", 
         "precio": 36900 
       },
       { "nombre": "CAZUELA DE FRIJOL", 
-        "descripcion": "Frijol, arroz, trozos de chicharrón,chorizo,\naguacate, maduro y arepa.", 
+        "descripcion": "Frijol, arroz, trozos de chicharrón, chorizo, aguacate, maduro y arepa.", 
         "precio": 29900 
       },
       { "nombre": "SOBREBARRIGA (CRIOLLA O DORADA)", 
@@ -52,11 +52,11 @@ export const menuData = [
         "precio": 37900 
       },
       { "nombre": "BISTECK A CABALLO", 
-        "descripcion": "Solomito de res (300grs), huevo, arroz, ensalada,\nsalsa criolla, arepa y patacón.", 
+        "descripcion": "Solomito de res (300grs), huevo, arroz, ensalada, salsa criolla, arepa y patacón.", 
         "precio": 38900 
       },
       { "nombre": "FIAMBRE", 
-        "descripcion": "Arroz, chicharrón, chorizo, sobrebarriga,\nhuevo, plátano maduro.", 
+        "descripcion": "Arroz, chicharrón, chorizo, sobrebarriga, huevo, plátano maduro.", 
         "precio": 32900 
       },
       { "nombre": "BANDEJA ANTIOQUEÑA", 
@@ -137,12 +137,12 @@ export const menuData = [
       },
       { 
         "nombre": "ASADO (DOS PERSONAS)", 
-        "descripcion": "Carne de res, cerdo y pollo, costillas bbq, chicharrón,\naguacate, arepa, tomate y chimichurri.", 
-        "precio": 63900 
+        "descripcion": "Carne de res, cerdo y pollo, costillas bbq, chicharrón, aguacate, arepa, tomate y chimichurri.", 
+        "precio": 63900
       },
       { 
         "nombre": "ASADO (PERSONAL)", 
-        "descripcion": "Carne de res, cerdo y pollo, costillas bbq,\npapa a la francesa o al vapor.", 
+        "descripcion": "Carne de res, cerdo y pollo, costillas bbq, papa a la francesa o al vapor.", 
         "precio": 38900 
       },
       { 
@@ -152,7 +152,7 @@ export const menuData = [
       },
       { 
         "nombre": "PICADA ANTIOQUEÑA", 
-        "descripcion": "Carne de res, cerdo, pollo, chorizo, chicharrón,\n papa criolla, arepa, tomate, costilla bbq.", 
+        "descripcion": "Carne de res, cerdo, pollo, chorizo, chicharrón, papa criolla, arepa, tomate, costilla bbq.", 
         "precio": 38900 
       },
       { 
@@ -229,12 +229,12 @@ export const menuData = [
       },
       {
         "nombre": "PATACÓN (ESPECIAL)", 
-        "descripcion": "Pollo, salchichas, queso concha y cuajada,\ncrema de leche.", 
+        "descripcion": "Pollo, salchichas, queso concha y cuajada, crema de leche.", 
         "precio": 27900
       },
       {
         "nombre": "SALCHIPAPA", 
-        "descripcion": "Papas a la francesa, huevo de codorniz y\nsalchichas.",
+        "descripcion": "Papas a la francesa, huevo de codorniz y salchichas.",
         "precio": 19900
       },
       {
@@ -264,7 +264,7 @@ export const menuData = [
       },
       {
         "nombre": "HAMBURGUESA COMBO", 
-        "descripcion": "Carne de la casa, jamón, queso, lechuga, tomate,\nsalsa al gusto, papas a la francesa y gaseosa.",
+        "descripcion": "Carne de la casa, jamón, queso, lechuga, tomate, salsa al gusto, papas a la francesa y gaseosa.",
         "precio": 26900
       }
     ]
