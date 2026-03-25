@@ -229,7 +229,7 @@ export const menuData = [
       },
       {
         "nombre": "PATACÓN (ESPECIAL)", 
-        "descripcion": "Pollo, salchichas, queso concha y cuajada, crema de leche.", 
+        "descripcion": "Pollo, salchichas, queso loncha y cuajada, crema de leche.", 
         "precio": 27900
       },
       {
